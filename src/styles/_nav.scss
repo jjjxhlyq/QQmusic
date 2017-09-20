@@ -1,0 +1,83 @@
+@import './_base.scss';
+.swiper{
+    width: 100%;
+    height: 1.5rem;
+    .swiper-slide{
+        width: 100%;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }     
+}
+.swiper-pagination-bullet-active{
+    background: #fff;
+}
+.video{
+    padding: 0px 0.1rem;
+    background: $common-color;
+    p{
+        height: 0.5rem;
+        line-height: 0.5rem;
+    }
+    ul{
+        display: flex;
+        li{
+            background: #fff;
+            flex: 1;
+            div{
+                position: relative;
+                img{
+                    width: 100%;
+                    height: 1.75rem;          
+                }
+                span{
+                    position: absolute;
+                    display: block;
+                    right: 0;
+                    bottom: 0;
+                    z-index: 999;
+                    width:0.48rem ;
+                    height: 0.48rem;
+                    
+                }
+            }
+           
+            p{
+                padding-left: 0.07rem;
+                font-size: 0.13rem;
+            }
+            &:nth-of-type(1){
+                margin-right: 0.1rem;
+            }
+        }
+    }
+    a{
+        text-align:center;
+        font-size: 0.13rem;
+        display: block;
+        height: 0.3rem;
+        font-weight: bold;
+        color: #000;
+    }
+    h5{
+        display: flex;
+        height: 0.5rem;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 0.85rem;
+            height: 0.3rem;
+        }
+    }
+}
+.p1{
+    text-align: center;
+    color: #636363;
+    font-size: 0.13rem;
+}
+.p2{
+    color: #7a7a7a;
+    font-size: 0.1rem;
+    text-align: center;
+}
